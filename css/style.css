@@ -52,10 +52,24 @@ padding: 0 10px;
 .get-app{
  color:white;
 }
+/* fine  bottoni */
 
+/* dropdown-menu in modo tale che sia a cascata   */
+.dropdown-menu {
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.link{
+  position: relative;
+  display: inline-block;
+}
+.dropdown-menu i{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
 
-
-
-
-
-/* fine bottoni */
+/* fine  dropdown-menu  */
