@@ -29,8 +29,9 @@ display: inline-block;
 vertical-align: middle;
 padding: 0 10px;
 }
-
-
+.dropdown-menu>i{
+  display:block;
+}
 
 .display-none{
   display:none;

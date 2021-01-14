@@ -1,9 +1,8 @@
 $(document).ready(function () {
 
 $('.link').click(function(){
-  $(this).find('.dropdown-menu').removeClass('display-none');
+  $(this).find('.dropdown-menu').toggleClass('display-none');
+
 })
-
-
 
 })
