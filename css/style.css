@@ -9,12 +9,13 @@ body {
 }
 nav {
   height: 90px;
+  margin-top: 100px;
 
 }
 .container-flex{
-  width: 80%;
+  width: 100%;
   display:flex;
-  justify-content:space-between;
+  justify-content:space-around;
 }
 
 .items-right li {
@@ -29,12 +30,7 @@ vertical-align: middle;
 padding: 0 10px;
 }
 
-.dropdown-help i{
-  display: none ;
+.display-none{
+  display:none;
 }
-.dropdown-about i{
-  display: none ;
-}
-.dropdown-plans i{
-  display: none ;
-}
+.dropdown-menu.active
