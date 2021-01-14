@@ -14,19 +14,27 @@ nav {
 .container-flex{
   width: 80%;
   display:flex;
-
   justify-content:space-between;
-
 }
 
 .items-right li {
 display: inline-block;
 vertical-align: middle;
 padding: 0 10px;
-
 }
+
 .items-left li {
 display: inline-block;
 vertical-align: middle;
 padding: 0 10px;
+}
+
+.dropdown-help i{
+  display: none ;
+}
+.dropdown-about i{
+  display: none ;
+}
+.dropdown-plans i{
+  display: none ;
 }
