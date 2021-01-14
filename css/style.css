@@ -32,7 +32,30 @@ padding: 0 10px;
 .dropdown-menu>i{
   display:block;
 }
-
+/* questo mi festisce l evento in js che tolgo e metto quando clicco sui vari link  */
 .display-none{
   display:none;
 }
+/* fine display rimosso e tolto */
+/* bottoni */
+.b-one{
+  width: 50px;
+  height: 40px;
+  border-radius: 6px;
+}
+.b-two{
+  width: 80px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: black;
+}
+.get-app{
+ color:white;
+}
+
+
+
+
+
+
+/* fine bottoni */
